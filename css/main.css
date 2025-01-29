@@ -183,6 +183,10 @@ header .menu .links a {
   font-size: 16px;
 }
 
+header .menu .close {
+  display: none;
+}
+
 header .right-menu {
   grid-column: span 5;
   display: flex;
