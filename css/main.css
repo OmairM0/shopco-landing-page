@@ -502,7 +502,8 @@ header .right-menu .icons .mobile-search {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .new-arrivals .products .product .img img,
@@ -662,6 +663,7 @@ header .right-menu .icons .mobile-search {
 
 .testimonials .title .arrows {
   flex-basis: 15%;
+  text-align: right;
 }
 
 .testimonials .boxes {
