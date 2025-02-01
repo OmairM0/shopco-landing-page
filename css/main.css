@@ -711,10 +711,15 @@ header .right-menu .icons .mobile-search {
 
 /* Start Subscribe */
 .subscribe {
-  padding-top: 70px;
+  /* padding-top: 70px;
   padding-bottom: 70px;
-  background-color: var(--color-main);
+  background-color: var(--color-main); */
   color: #fff;
+}
+
+.subscribe .container {
+  padding: 70px 20px;
+  background-color: var(--color-main);
   border-radius: 20px;
 }
 
