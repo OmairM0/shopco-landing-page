@@ -381,7 +381,7 @@ header .container {
   color: var(--color-green);
 }
 
-.reviws .btn {
+.reviws > .btn {
   grid-column: span 12;
   margin: auto;
   margin-top: 20px;
@@ -394,12 +394,28 @@ header .container {
 } */
 
 @media (max-width: 768px) {
-  .reviws .boxes .box {
-    min-width: 100%;
+  .reviws .head .title {
+    font-size: 20px;
+  }
+
+  .reviws .head .title span {
+    font-size: 14px;
+  }
+
+  .product .product-info .info .sizes span {
+    font-size: 14px;
   }
 
   .reviws .head .control-icons span:nth-of-type(2) {
     display: none;
+  }
+
+  .reviws .head .control-icons .btn {
+    font-size: 12px;
+  }
+
+  .reviws .boxes .box {
+    min-width: 100%;
   }
 }
 /* End Testimonials */
