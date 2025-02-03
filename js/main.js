@@ -48,22 +48,3 @@ rightArrow.addEventListener("click", () => {
   console.log(testimonialsCount);
   console.log(index);
 });
-
-// let currentSlide = 0;
-// const slides = document.querySelector(".testimonials .boxes");
-// const totalSlides = slides.children.length;
-
-// leftArrow.addEventListener("click", () => {
-//   currentSlide = (currentSlide + 1) % totalSlides;
-//   updateSlide();
-// });
-
-// rightArrow.addEventListener("click", () => {
-//   currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-//   updateSlide();
-// });
-
-// function updateSlide() {
-//   const offset = -currentSlide * 100;
-//   slides.style.transform = `translateX(${offset}%)`;
-// }
