@@ -117,7 +117,7 @@ header .container {
   border-radius: 25px;
   display: flex;
   align-items: center;
-  width: 35%;
+  width: 50%;
 }
 
 .cart .cart-content .box .info .price .quantity input {
